@@ -81,14 +81,15 @@ public class WeeklySteps {
     }
 
     public static void main(String[] args) {
+//        TODO: Refactor - Move to test dir
         DailyGoal dailyGoal = new DailyGoal(10000);
 
         WeeklySteps weeklySteps = new WeeklySteps();
         weeklySteps.setDailyGoal(dailyGoal);
 
 
-        int year = 2021;
-        int month = 1;
+        int year = 2024;
+        int month = 2;
         int day = 4;
 
         weeklySteps.addDailySteps(11543, LocalDate.of(year, month, day));
@@ -106,7 +107,6 @@ public class WeeklySteps {
         weeklySteps.addDailySteps(20048, LocalDate.of(year, month, day));
 
         System.out.println(weeklySteps.format());
-//        System.out.println(weeklySteps.bestDay());
 
     }
 

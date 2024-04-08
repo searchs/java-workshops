@@ -2,7 +2,7 @@
 
 ```bash
 #Create the classes in preps
- javac com/katchstyle/nlytics/steps/*.java  
+javac com/katchstyle/nlytics/steps/*.java  
 #To create a jar file
 jar cvf jar_file_name files_to_put
 #e.g.
