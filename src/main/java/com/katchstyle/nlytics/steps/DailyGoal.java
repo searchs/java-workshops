@@ -9,10 +9,7 @@ public class DailyGoal {
     }
 
     public boolean hasMetGoal(Steps steps) {
-        if (steps.getSteps() > dailyGoal) {
-            return true;
-        }
-        return false;
+        return steps.getSteps() > dailyGoal;
     }
 
     public int getDailyGoal() {

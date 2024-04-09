@@ -12,6 +12,9 @@ target/
 *.iml
 *.ipr
 *.jar
+*.class
+*META-INF*
+*MANIFEST.MF*
 
 ### Eclipse ###
 .apt_generated
